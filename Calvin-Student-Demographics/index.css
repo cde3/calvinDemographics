@@ -1,0 +1,16 @@
+body {
+  font-family: Gothic, sans-serif;
+}
+
+
+#container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+
+.gridbox {
+    border: 1px solid black;
+    fill: aqua;
+}
